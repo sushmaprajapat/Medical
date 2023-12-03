@@ -1,0 +1,131 @@
+.shortcodes{
+    margin-block: 4rem;
+.carousel-inner{
+    padding-bottom: 50px;
+}
+    .card{
+        border: unset;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+   margin-inline: 3px;
+    .card-img-top{
+        border-radius: 0;
+        height: 200px;
+        object-fit: cover;
+    }
+    .card-body{
+        padding:30px 25px;
+
+        h6{
+            font-weight: bold;
+        }
+        p{
+            color: #878a8d;
+            margin-top: 15px;
+
+            
+        }
+        span{
+            border-top: 1px solid rgb(245 244 244);
+            display: block;
+        }
+
+        .footer-image{
+            display: flex;
+            align-items: center;
+
+            .image{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+           p{
+            margin-left: 15px;
+            margin-top: 0;
+           }
+        }
+    }
+    }
+}
+
+.appointment-list{
+    background-color: #F7F7F7;
+    padding-block: 4rem;
+
+    .medical-health {
+        display: flex;
+        justify-content: space-between;
+        background: #4489fe;
+        color: white;
+        align-items: center;
+        padding: 15px;
+
+        p{
+            margin: 0;
+        }
+
+    }
+    .reding-text{
+background-color: white;
+padding: 15px;
+font-size: 14px;
+margin-block: 20px;
+color: #878a8d;
+position: relative;
+
+&::before{
+    content: "";
+display: inline-block;
+width: 15px;
+height: 15px;
+background-color: white;
+transform: rotate(50deg)translate(0, 50%) ;
+position: absolute;
+right: 15px;
+top: -11px;
+}
+    }
+    
+
+    .medical-centre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background: white;
+       color: black;
+       margin-bottom: 20px;
+
+
+       h6{
+        margin: 0;
+        font-weight: bold;
+       }
+    }
+
+    .request-appointment{
+        background: white;
+        padding: 30px 25px;
+
+        .form-control{
+            background: #f9f9f9;
+            border: 1px solid #f3f2f2f0;
+            border-radius: 0.175rem;
+            color: #716f6f;
+            font-size: 13px;
+            padding-block: 10px;
+        }
+        .dropdown-toggle{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .submit{
+            border-radius: 0.175rem;
+            font-size: 13px;
+            padding-inline: 20px;
+        }
+    }
+}
